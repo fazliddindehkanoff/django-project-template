@@ -7,11 +7,26 @@ This is a Django project template that can be used as a starting point for new D
 - Make commands: Use the provided Make commands to build, run, and test the project.
 - Customizable: Modify the settings, templates, and static files to suit your needs.
 
+
+# Installation
+To use this Django project template, follow these steps:
+
+- Clone the repository: git clone <repository-url>
+- Set up a virtual environment: python3 -m venv env
+- Activate the virtual environment: source env/bin/activate
+- Install the required packages: pip install -r requirements.txt
+- Copy the example environment variables: cp .env.example .env
+- Customize the environment variables in the .env file to match your project requirements.
+- To run the project using Docker, build and start the containers using the provided Make commands: make up
+
 # Usage
-You have to create .env file and copy example variables from ```.env.example```
+To start a new Django project based on this template, follow these steps:
+- Create a new directory for your project: mkdir myproject
+- Copy the contents of this repository into your project directory: cp -r <path-to-repo>/* myproject/
+- Customize the .env file to set your project-specific environment variables.
+- Use the provided Make commands to build, run, and test your project.
 
 # Make Commands
-
 - up: Builds and starts the Docker containers.
 - destroy: Stops and removes the Docker containers and their volumes.
 - migrations: Runs Django's makemigrations command inside the Docker container.
