@@ -1,7 +1,7 @@
 # Django Project Template
 This is a Django project template that can be used as a starting point for new Django projects. It comes with a set of Make commands that make it easy to build and run the project in a Docker container.
 
-#Features
+# Features
 - Easy to use: Just clone the repository and start customizing.
 - Docker integration: Run the project in a Docker container using the provided Dockerfile and Docker Compose configuration.
 - Make commands: Use the provided Make commands to build, run, and test the project.
